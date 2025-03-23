@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/homepage.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+        <!-- Header Section -->
+        <header>
+            <nav>
+                <p style="font-family: Oswald">Izza & Co.</p> <!-- Website Title -->
+                <div class="buttons"><a href="homepage.html">HOME</a></div> <!-- Navigation Link to Home -->
+                <div class="buttons"><a href="featurepage.html">FEATURE</a></div> <!-- Navigation Link to Feature Page -->
+            </nav>
+        </header>
+
+<!-- Main Content Section -->
+<main>
+    <div class="sub_main">
+        <!-- Hero Section -->
+        <section class="hero" style="height: 350px;"></section>
+
+        <!-- Skills & Achievements Section -->
+        <section class="all_about_me">
+            <div class="box skills">
+                <h1>SKILLS</h1>
+                <ul>
+                    <li>Programming Languages: Python, Java, C++, JavaScript</li>
+                    <li>Web Development: HTML, CSS, JavaScript</li>
+                </ul>
+            </div>
+            <div class="box achievements">
+                <h1>ACHIEVEMENTS</h1>
+                <ul>
+                    <li>With Academic Distinction (SHS)</li>
+                    <li>Dean's Lister</li>
+                    <li>CEAP Scholar</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <!-- Sidebar / Aside Section -->
+    <aside>
+        <!-- Profile Photo -->
+        <img src="asset/formal_pic.jpg" alt="Izza"> 
+        
+        <!-- Personal Information -->
+        <div class="personal_info">
+            <p>Contact Number: 09618150800</p>
+            <p>Email: izzakatherine@gmail.com</p>
+            <p>Address: Pila West, Sta. Lucia, Ilocos Sur</p>
+        </div>
+        
+        <!-- Contact Form -->
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Send</button>
+        </form>
+    </aside>
+</main>
+
+<!-- Footer Section -->
+<footer>
+    &copy; 2025 Izza Katherine Dela Rosa. All rights reserved.
+</footer>
+    
+</body>
+</html>
